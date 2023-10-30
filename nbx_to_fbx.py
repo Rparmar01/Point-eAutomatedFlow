@@ -2,10 +2,10 @@ import bpy
 import os
 
 # Set the path to the directory containing your .nbx files
-nbx_directory = "/path/to/your/nbx/files"
+nbx_directory = "C:/Users/rparm/Documents/GitHub/Point-eAutomatedGit/Point-eAutomatedFlow/MeshFiles/"
 
 # Set the path to the Blender executable (change this to the correct path)
-blender_executable = "/path/to/blender/executable/blender"
+blender_executable = "C:/Users/rparm/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/blender/"
 
 # List all .nbx files in the directory
 nbx_files = [f for f in os.listdir(nbx_directory) if f.endswith(".nbx")]
