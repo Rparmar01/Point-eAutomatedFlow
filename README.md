@@ -13,7 +13,7 @@ Using OpenAI's Point-e repository to automate text-to-3D object workflow. This i
 
 ## Instructions: 
 Automatic:
-(WIP) Run the 
+(WIP) Run ProgramHandler.py
 
 Manual:
 1. (If running locally) Run Anaconda and switch to your Tensorflow environment if you haven't already done so.
