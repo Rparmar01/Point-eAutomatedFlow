@@ -8,10 +8,14 @@ Using OpenAI's Point-e repository to automate text-to-3D object workflow. This i
 2. If you are running jupyter notebook files locally:
     1. It is highly recommended that you have a viable GPU available and install Tensorflow and its dependencies. Alternative options include running the notebooks on Google Colab or on a cloud service such as Azure. Tensorflow: https://www.tensorflow.org/install/pip
     2. Install Anaconda or Miniconda. Create a new environment with Tensorflow's packages and switch to the environment.   
-3. Install Blender
+3. Install Blender 3.6. The version is very important because different versions of Blender support different types of baking. 
 4. Install your 3D Simulation Engine of your choice. Typically these will be Unity, Unreal Engine, or Godot. 
 
-## Instructions:
+## Instructions: 
+Automatic:
+(WIP) Run the 
+
+Manual:
 1. (If running locally) Run Anaconda and switch to your Tensorflow environment if you haven't already done so.
 3. Run text2pointcloud.ipynb
 4. Run pointcloud2mesh.ipynb 
