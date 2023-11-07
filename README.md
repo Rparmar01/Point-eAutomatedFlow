@@ -1,5 +1,9 @@
 # Point-eAutomatedFlow
-Using OpenAI's Point-e repository to automate text-to-3D object workflow. This includes a tutorial on how to convert user-inputted text into a nbx file mesh and then into a fully baked fbx file for use in game engines. NOTE: Code for Automation is still in progress 
+Using OpenAI's Point-e repository to automate text-to-3D object workflow. This includes a tutorial on how to convert user-inputted text into a nbx file mesh and then into a fully baked fbx file for use in game engines.
+
+Automated file conversion from ply to fbx files have been completed. 
+
+I plan to add automatic importing to Unreal Engine and maybe Unity or Godot. 
 
 ## Requirements: 
 1. Install Python 3.* if you do not yet have python.
