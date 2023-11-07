@@ -4,14 +4,14 @@ import subprocess
 
 
 # Set the path to the directory containing your .ply files
-ply_directory = r"C:\\Users\\rparm\\Documents\\GitHub\\Point-eAutomatedGit\\Point-eAutomatedFlow\\MeshFiles"
+ply_directory = "Path to Ply file goes here"
 
 # List files in the directory
 ply_files = [f for f in os.listdir(ply_directory) if f.endswith(".ply")]
 
 # Print the list of files (For Debugging purposes)
 #print(ply_files)
-external_script_path = r"C:\\Users\\rparm\\Documents\\GitHub\\Point-eAutomatedGit\\Point-eAutomatedFlow\\convert_ply_to_fbx.py"
+external_script_path = "Path to convert_ply_to_fbx.py goes here"
 
 for ply_file in ply_files:
     ply_path = os.path.join(ply_directory, ply_file)
