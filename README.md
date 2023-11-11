@@ -14,6 +14,7 @@ I plan to add automatic importing to Unreal Engine and maybe Unity or Godot.
 5. Install Blender 3.6. The version is very important because different versions of Blender support different types of baking. 
 6. Install your 3D Simulation Engine of your choice. Typically these will be Unity, Unreal Engine, or Godot. 
 
+Using Colab's GPU for running notebooks is typically better than running locally. 
 ## Instructions: 
 Automatic:
 (WIP) Run ProgramHandler.py
