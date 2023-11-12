@@ -16,7 +16,7 @@ external_script_path = r"C:\\Users\\rparm\\Documents\\GitHub\\Point-eAutomatedGi
 for ply_file in ply_files:
     ply_path = os.path.join(ply_directory, ply_file)
     fbx_file = os.path.splitext(ply_file)[0] + ".fbx"
-    fbx_path = os.path.join(ply_directory, fbx_file)
+    fbx_path = os.path.join(ply_directory, fbx_file + ".fbx")
 
     try:
         #print(ply_path)
