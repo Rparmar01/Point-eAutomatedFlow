@@ -14,7 +14,7 @@ Using Colab's GPU for running notebooks is typically better than running locally
 ## Instructions: 
 Automatic:
 (WIP) Run ProgramHandler.py
-
+*** See ShapePersonalModel Repo for details on how the model will run 
 Manual:
 1. (If running locally) Run Anaconda and switch to your Tensorflow environment if you haven't already done so.
 3. Run text2pointcloud.ipynb
