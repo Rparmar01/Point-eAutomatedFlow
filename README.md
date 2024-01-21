@@ -1,6 +1,7 @@
 # Point-eAutomatedFlow
 Using OpenAI's Point-e repository to automate text-to-3D object workflow. This includes a tutorial on how to convert user-inputted text into a nbx file mesh and then into a fully baked fbx file for use in game engines.
-[Deprecated due to use of cloud version of shap-e, and the fact that shap-e allows .obj files to be saved locally. Will use as reference to bake obj files into Unreal Engine]
+
+Plan to run these files on client game startup to keep track of when a user needs to send out a GPT request.
 
 
 ## Requirements: 
